@@ -1,0 +1,9 @@
+$primary-color: green;
+$secondary-color: red;
+.main {
+  margin: 30px;
+}
+.home {
+  background-color: $primary-color;
+  color: $secondary-color;
+}

@@ -1,0 +1,27 @@
+h2 {
+  color: blue;
+  text-align: center;
+}
+
+section {
+  display: grid;
+  gap: 0.5rem;
+  padding: 1rem;
+  text-align: center;
+}
+article {
+  background-color: #293462;
+  color: white;
+  padding: 0.5rem;
+}
+
+@media (min-width: 600px) {
+  section {
+    grid-template-columns: auto auto auto;
+  }
+}
+@media (min-width: 768) {
+  section {
+    grid-template-columns: auto auto auto auto;
+  }
+}
